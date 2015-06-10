@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" dir="ltr" lang="en-US">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" dir="ltr" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" dir="ltr" lang="en-US">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html>
+  <head>
+  <header>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+<link href="scrolling-nav.css" rel="stylesheet">
+<link href="style.css" rel="stylesheet" />
+<title>The web site of Theo Martin - theosdesigns</title>
+    <!-- Latest compiled and minified JavaScript -->
+
+ <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+Plugin JavaScript 
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>-->
+
+ <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+<!--jQuery script!-->   
+<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+<script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+<!-- jQuery -->
+<script src="jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="bootstrap.min.js"></script>
+
+<!-- Scrolling Nav JavaScript -->
+<script src="jquery.easing.min.js"></script>
+<script src="scrolling-nav.js"></script>
+
+<script type="text/javascript" src="scripts/jquery.parallax-1.1.3.js"></script>
+<script type="text/javascript" src="scripts/jquery.localscroll-1.2.7-min.js"></script>
+<script type="text/javascript" src="scripts/jquery.scrollTo-1.4.2-min.js"></script>
+
+<!--active plugins
+<link href="js/curtain.css" rel="stylesheet" />
+<script src="js/curtain.js"></script>
+<script src="js/jquery.scrollorama.js"></script>
+<script src="js/scripts.js"></script>!-->
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+<!--parallax js-->
+<script type="text/javascript">
+jQuery(document).ready(function(){
+  $objWindow = $(window);
+  $('div[data-type="background"]').each(function(){
+    var $bgObj = $(this);
+    $(window).scroll(function() {
+      var yPos = -($objWindow.scrollTop() / $bgObj.data('speed')); 
+           
+      var coords = '100% '+ yPos + 'px';
+            // Animate the background
+       $bgObj.css({ backgroundPosition: coords });
+           
+
+             $('#nav').localScroll(800);
+             $('#second').localScroll(800);
+             $('.bg').localScroll(800)
+  
+  //.parallax(xPosition, speedFactor, outerHeight) options:
+  //xPosition - Horizontal position of the element
+  //inertia - speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling
+  //outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
+    });
+    
+  });
+});
+
+
+
+</script>
+</head>
+ <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand page-scroll" href="#page-top">theosdesigns</a> <!--logo section!-->
+    </div>
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+      <ul class="nav navbar-nav navbar-right">
+      <li class="hidden">
+        <a class="page-scroll" href="#page-top"></a>
+        </li>
+         <li><a class="page-scroll" href="#home">Home</a>
+        </li>
+        <li><a class="page-scroll" href="#bio">Bio</a>
+        </li>
+        <li><a class="page-scroll" href="#work">Work</a>
+        </li>
+        <li><a class="btn btn-default" href="#credits" disabled="disabled">Credits</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+  </header>
+ 
+ 
+ 
+
+  <div id="home" class="bg_parralax" data-type="background" data-speed="10"></div>
+  <div id="jquery" class="bg_parralax" data-type="background" data-speed="10"></div>
+  <div id="title" class="bg_parralax" data-type="background" data-speed="10"></div>
+  <div id=".bg" class="bg_parralax" data-type="background" data-speed="10"></div>
+
+  <section id="bio" class="bio-section">
+<h1><p class="text-center">Theo Martin</p></h1>
+<center><img src="230673_503960154603_3494_n.jpg" HEIGHT="300" WIDTH="250"  alt="Theo Martin" class="img-circle"></center>
+
+&nbsp;
+
+<p class="text-center">Front End Developer - HTML, CSS, Javascript</p>
+
+
+<!--<table class="table" width="25">
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th></th></th>
+<th></th>
+
+</thead>
+</table>
+<center><img src="linkedin.png" href="https://www.linkedin.com/pub/theo-martin/57/8a8/a23" HEIGHT="30" WIDTH="30"></center>!-->
+
+<!--<span class="glyphicon glyphicon-arrow-down"></span>!-->
+<div class="container">
+    <div class="row row-centered">
+        <div class="col-xs-3 col-centered"></div>
+        <div class="col-xs-3 col-centered"></div>
+        <div class="col-xs-3 col-centered"></div>
+       <!-- <center><a class="btn btn-default page-scroll" href="#work">Click Me to Scroll Down!</a></center>!-->
+    </div>
+</div>
+</section>
+<!--links here!-->
+
+
+    <div id="slide1" class="bg_parralax" data-type="background" data-speed="10"></div>
+    <!--<div class="space">!-->
+    <p class="text-center">Welcome to the wonderful show of Theo Martin. I hope you enjoy what you are about to see. This is my portfolio I have been developing as a side project. Enjoy the nice space background as you scroll down.</p>
+     <!--<p><center><span class="glyphicon glyphicon-arrow-down"></span></center></p>!-->
+    
+  
+        <div id="slide2" class="bg_parralax" data-type="background" data-speed="10"></div>
+        <p class="text-center">For those who do not know this technique of moving images in websites is called parallax scrolling. Wikipedia defines parallax scrolling as a special scrolling technique in computer graphics, wherein background images move by the camera slower than foreground images, creating an illusion of depth in a 2D video game and adding to the immersion. I define it as awesome!!! </p>
+          <!--<span class="glyphicon glyphicon-arrow-down"></span>!-->
+   
+        
+            <div id="slide3" class="bg_parralax" data-type="background" data-speed="10"></div>
+        <p class="text-center">This website is made with HTML, CSS3, and to really work the magic of the parallax effect I have added a bit of jQuery. The responsive web design is done with the help of Bootstrap. I made this website just to experiment with Bootstrap and I am loving it. My navbar and stage curtain is looking flawless on tablets and mobile devices. I plan to experiment with SASS or LESS later on.
+   </p>
+     <!--<span class="glyphicon glyphicon-arrow-down"></span>!-->
+
+   
+              <div id="slide4" class="bg_parralax" data-type="background" data-speed="10"></div>
+        <p class="text-center">I want to build a website someday that will help kids and adults with cancer. This website will probably run on HTML, CSS, Javascript, Angular or jQuery, Ruby on Rails and SQL and of course some design stuff through Photoshop which is my favorite Adobe Product to use. I also love manipulating photos and would like to take up photography as a next hobby. <!--<span class="glyphicon glyphicon-arrow-down"></span>!-->
+   </p>
+   
+  <!--<section id="resume" class="resume-section">
+    <h1 class="page-header">Resume
+      <small></small>
+    </h1>
+</section>   !-->
+
+
+   
+   
+      
+    
+
+  <div id="slide3" class="bg_parralax" data-type="background" data-speed="10"></div>
+    <div class="container">
+        <!-- Page Header -->
+        <div class="row">
+            <div class="col-lg-12">
+            <section id="work" class="work-section">
+                <h1 class="page-header">My Work
+                    <small></small>
+                </h1>
+            </section>
+            </div>
+        </div>
+        
+        <!-- /.row -->
+
+        <!-- Projects Row -->
+        <div class="row">
+            <div class="col-md-4 portfolio-item">
+                <div class="view view-fourth">
+                <img class="img-responsive" src="alzerina.jpg" alt="">
+                  <div class="mask">
+                
+                <h3>
+                    <a href="http://www.coroflot.com/theosdesigns/Alzerina-New-York-Paris-Cabo-Verde">Alzerina Jewelry</a>
+                </h3>
+                <p>This project was my first project I did for an internship and a project I really enjoyed working on. Alzerina Jewelry is a e-commerce website featuring famous jewelry designer Alzerina Gomes pieces. I was responsible for website maintenance and designing a new website through Big Commerce adding and editing along with retouching images for e-mails and the website through Photoshop. I also coded the Facebook store with HTML.</p>
+            </div>
+            </div>
+            </div>
+            
+            
+            <div class="col-md-4 portfolio-item">
+              <div class="view view-fourth">
+                 
+                    <img class="img-responsive" src="saferide.jpg" alt="">
+                     <div class="mask">
+                <h3>
+                    <a href="http://www.coroflot.com/theosdesigns/Safe-Ride-Syosset">Safe Ride Syosset</a>
+                </h3>
+                <p>This was my first website I have designed, developed and published. Safe Ride Syosset was founded by Josh Lafazan and it was designed as a website to provide a safe ride to teens that drank a lot rather than have a teen get behind the wheel of a car under the influence. This website was done with HTML, CSS3, and PHP for the contact form.</p>
+              </div>
+              </div>
+              </div>
+            <div class="col-md-4 portfolio-item">
+                   <div class="view view-fourth">
+                      <img class="img-responsive" src="chalk.jpg" alt="">
+                  <div class="mask">
+                 
+                
+                <h3>
+                    <a href="http://www.coroflot.com/theosdesigns/Josh-Lafazan-for-School-Board">Josh Lafazan for School Board</a>
+                </h3>
+                <p>This was the campaign page for Josh Lafazan. Josh Lafazan is currently the youngest member of the Syosset school board in New York. The page is now his personal page with updates.</p>   
+                </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Projects Row -->
+        <div class="row">
+            <div class="col-md-4 portfolio-item">
+                         <div class="view view-fourth">
+                           <img class="img-responsive" src="blacklogo.jpg" alt="">
+                  <div class="mask">
+                  
+                
+                <h3>
+                    <a href="http://www.coroflot.com/theosdesigns/Rebels-Candy">Rebel's Candy</a>
+                </h3>
+                <p>This is a sample page I have done for a client. This was meant to be a urban news website as well as fashion. The logo was designed by someone else. This is the prototype for this website that was never launched</p>
+            </div>
+            </div>
+            </div>
+            <div class="col-md-4 portfolio-item">
+                         <div class="view view-fourth">
+                              <img class="img-responsive" src="survivor.jpg" alt="">
+                  <div class="mask">
+               
+                
+                <h3>
+                    <a href="http://www.coroflot.com/theosdesigns/survivornation">Survivor Nation</a>
+                </h3>
+                <p>This is a side project of mine tinkering with Wordpress and hopefully will soon be a real social networking website for people with cancer someday. Survivor Nation will be just like any other social network complete with chat and profiles but a more serious approach towards cancer. It will be modeled like like Facebook and Linkedin and accept donations for childhood cancer. The website is done with the help of XAMPP which is an offline server, SQL to hold the tables and also the banner was created in Photoshop.</p>
+            </div>
+            </div>
+            </div>
+            <div class="col-md-4 portfolio-item">
+                   <div class="view view-fourth">
+                   <img class="img-responsive" src="IMG_5185.jpg" alt="">
+                  <div class="mask">
+ 
+                <h3>
+                    <a href="http://www.coroflot.com/theosdesigns/Photo-retouches">Photoshopped Images</a>
+                </h3>
+                <p>These are images I have photoshopped ranging from Alzerina's pieces of jewelry to practice images that I have airbrushed to remove blemishes to make them look like the images in magazines.</p>
+                </div>
+                </div>
+            </div>
+          </div>
+        </div>
+ <!--<div id="credits" class="bg_parralax" data-type="background" data-speed="10"></div>
+    <div id="second">
+    <div class="story"><div class="bg"></div>
+        <div class="float-right">
+              <h2>Why parallax scrolling?</h2>
+              <p>Before I jump into all the thank yous and praises I would just like to say a few things more about my page and show off a little bit more. As I said before parallax scrolling is  a special scrolling technique in computer graphics, wherein background images move by the camera slower than foreground images, creating an illusion of depth. I personally love parallax scrolling due to the limitless possibilities of creation. This is my way of telling a story about me and to just get creative.
+              </p>
+          </div>
+
+      </div>      
+<div id="third" class="bg_parralax" data-type="background" data-speed="10"></div>
+   <div id="fourth" class="bg_parralax" data-type="background" data-speed="10"></div> 
+</div> !-->
+  </body>
+</html>                 

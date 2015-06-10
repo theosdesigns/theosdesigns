@@ -1,0 +1,714 @@
+
+/* CSS Document */
+
+      /* This is a CSS comment. CSS is how you can add style to your website, such as colors, fonts,
+         and positioning of your HTML content.
+         See http:// for more info. */
+
+
+body {
+  background: black;
+  color: #e9eaed;
+  font-family: PetitaBold;
+  margin:0;
+  padding:0;
+}
+
+
+#home { 
+  background: url("curtain.jpg");
+  background-attachment: fixed;
+  background-origin: initial;
+  background-clip: initial;
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-position:100% 0; 
+	position:relative;
+	min-height:1080px;
+}
+
+#jquery { 
+  background: url("jquery.jpg");
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-position:100% 0; 
+	position:relative;
+	min-height:1080px;
+}
+
+ 
+#title { 
+	background: url("title.jpg");
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-position:100% 0; 
+	position:relative;
+	min-height:1080px;
+}
+
+#slide1{ 
+  background: url("starlayout.jpg");
+  background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-position:100% 0; 
+	position:relative;
+	min-height:1080px;
+}
+
+#slide2 { 
+  background: url("starlayout.jpg");
+  background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: cover;
+	background-repeat:repeat;
+	background-position:100% 0; 
+	position:relative;
+	min-height:1080px;
+}
+
+#slide3 { 
+  background: url("starlayout.jpg");
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: cover;
+	background-repeat:repeat;
+	background-position:100% 0; 
+	position:relative;
+	min-height:1080px;
+}
+
+#slide4 { 
+  background: url("starlayout.jpg");
+  background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: cover;
+	background-repeat:repeat;
+	background-position:100% 0; 
+	position:relative;
+	min-height:1080px;
+}
+
+#credits { 
+  background: url("credits.jpg");
+  background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: cover;
+	background-repeat:repeat;
+	background-position:100% 0; 
+	position:relative;
+	min-height:1080px;
+}
+
+
+ /*#credits { 
+  margin: 526px auto 480px auto;
+	width: 100%;
+	background: #fff;
+	position: relative;
+	margin-bottom: 600px;
+	box-shadow: 0 0 5px rgba(0,0,0,.2);
+	z-index: 3;
+	padding-top: 20px;
+}*/
+
+.float-left{
+	float: left;	
+	margin: 0 0 0 20px;
+}
+
+.float-right{
+	float: right;
+	margin: 0 20px 0 0;
+}
+
+#second{
+	background: url(clouds.jpg);
+	background-attachment: fixed;
+  background-origin: initial;
+  background-clip: initial;
+  background-size: cover;
+  background-repeat:repeat;
+  background-position:100% 0; 
+  position:relative;
+  min-height:1080px;
+}
+
+#third{
+  background: url(clouds.jpg);
+  background-attachment: fixed;
+  background-origin: initial;
+  background-clip: initial;
+  background-size: cover;
+  background-repeat:repeat;
+  background-position:100% 0; 
+  position:relative;
+  min-height:1080px;
+}
+
+#fourth{
+  background: url(crayons.jpg);
+  background-attachment: fixed;
+  background-origin: initial;
+  background-clip: initial;
+  background-size: cover;
+  background-repeat:repeat;
+  background-position:100% 0; 
+  position:relative;
+  min-height:1080px;
+}
+
+
+.story{
+	margin: 0 auto;
+	min-width: 980px;
+	overflow: auto;
+	width: 980px;
+}
+
+.story .float-left, .story .float-right{
+	padding: 100px 0 0 0;
+	position: relative;
+	width: 350px;	
+}
+
+
+.view-fourth img {
+   -webkit-transition: all 0.4s ease-in-out 0.2s;
+   -moz-transition: all 0.4s ease-in-out 0.2s;
+   -o-transition: all 0.4s ease-in-out 0.2s;
+   -ms-transition: all 0.4s ease-in-out 0.2s;
+   transition: all 0.4s ease-in-out 0.2s;
+   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+   filter: alpha(opacity=100);
+   opacity: 1;
+}
+.view-fourth .mask {
+   background-color: rgba(0,0,0,0.8);
+   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+   filter: alpha(opacity=0);
+   opacity: 0;
+   -webkit-transform: scale(0) rotate(-180deg);
+   -moz-transform: scale(0) rotate(-180deg);
+   -o-transform: scale(0) rotate(-180deg);
+   -ms-transform: scale(0) rotate(-180deg);
+   transform: scale(0) rotate(-180deg);
+   -webkit-transition: all 0.4s ease-in;
+   -moz-transition: all 0.4s ease-in;
+   -o-transition: all 0.4s ease-in;
+   -ms-transition: all 0.4s ease-in;
+   transition: all 0.4s ease-in;
+   -webkit-border-radius: 0px;
+   -moz-border-radius: 0px;
+   border-radius: 0px;
+}
+.view-fourth h2 {
+   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+   filter: alpha(opacity=0);
+   opacity: 0;
+   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+   background: transparent;
+   margin: 20px 40px 0px 40px;
+   -webkit-transition: all 0.5s ease-in-out;
+   -moz-transition: all 0.5s ease-in-out;
+   -o-transition: all 0.5s ease-in-out;
+   -ms-transition: all 0.5s ease-in-out;
+   transition: all 0.5s ease-in-out;
+}
+.view-fourth p {
+   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+   filter: alpha(opacity=0);
+   opacity: 0;
+   -webkit-transition: all 0.5s ease-in-out;
+   -moz-transition: all 0.5s ease-in-out;
+   -o-transition: all 0.5s ease-in-out;
+   -ms-transition: all 0.5s ease-in-out;
+   transition: all 0.5s ease-in-out;
+}
+.view-fourth a.info {
+   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+   filter: alpha(opacity=0);
+   opacity: 0;
+   -webkit-transition: all 0.5s ease-in-out;
+   -moz-transition: all 0.5s ease-in-out;
+   -o-transition: all 0.5s ease-in-out;
+   -ms-transition: all 0.5s ease-in-out;
+   transition: all 0.5s ease-in-out;
+}
+.view-fourth:hover .mask {
+   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+   filter: alpha(opacity=100);
+   opacity: 1;
+   -webkit-transform: scale(1) rotate(0deg);
+   -moz-transform: scale(1) rotate(0deg);
+   -o-transform: scale(1) rotate(0deg);
+   -ms-transform: scale(1) rotate(0deg);
+   transform: scale(1) rotate(0deg);
+   -webkit-transition-delay: 0.2s;
+   -moz-transition-delay: 0.2s;
+   -o-transition-delay: 0.2s;
+   -ms-transition-delay: 0.2s;
+   transition-delay: 0.2s;
+}
+.view-fourth:hover img {
+   -webkit-transform: scale(0);
+   -moz-transform: scale(0);
+   -o-transform: scale(0);
+   -ms-transform: scale(0);
+   transform: scale(0);
+   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+   filter: alpha(opacity=0);
+   opacity: 0;
+   -webkit-transition-delay: 0s;
+   -moz-transition-delay: 0s;
+   -o-transition-delay: 0s;
+   -ms-transition-delay: 0s;
+   transition-delay: 0s;
+}
+.view-fourth:hover h2,
+.view-fourth:hover p,
+.view-fourth:hover a.info {
+   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+   filter: alpha(opacity=100);
+   opacity: 1;
+   -webkit-transition-delay: 0.5s;
+   -moz-transition-delay: 0.5s;
+   -o-transition-delay: 0.5s;
+   -ms-transition-delay: 0.5s;
+   transition-delay: 0.5s;
+}
+
+
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+
+
+
+/* test code
+@import "compass/css3";
+
+*{
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  font-family:arial;
+}
+body{
+  background: #404040;;
+  padding:0;
+  margin:0;
+  text-align: center;
+  font-family: arial;
+  color: #fff;
+}
+
+$fb-cl:#3B579D;
+$twt-cl:#00ACED;
+$gp-cl:#DD4A3A;
+$in-cl:#007BB6;
+$pin-cl:#CB2026;
+
+@function shadow($color) {
+  $val: 0px 0px $color;
+  @for $i from 1 through 30 {
+    $val: #{$val}, #{$i}px #{$i}px #{$color};
+  }
+  @return $val;
+}
+
+
+.social-nav{
+  padding: 0;
+  list-style: none;
+  display: inline-block;
+  margin:10px auto;
+  li{
+    display: inline-block;
+  }
+  a {
+    display: inline-block;
+    float: left;
+    width: 48px;
+    height: 48px;
+    font-size: 20px;
+    color: #FFF;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    line-height: 48px;
+    background: #000;
+    position: relative;
+    @include transition(.5s);
+  }
+}
+
+
+.model-0{
+  position: absolute;
+  @include transition(.5s);
+  left:0;
+  top: 50px;
+  li{
+    float: none;
+    display: block;
+  }
+  a{
+    &:hover{
+    padding-left: 20px;
+    width:65px;
+    }
+  }
+  .twitter{ background:$twt-cl}
+  .facebook{ background:$fb-cl}
+  .google-plus{background:$gp-cl}
+  .linkedin{background:$in-cl}
+  .pinterest{ background:$pin-cl}
+}
+.model-1{
+  li{margin:0 2px ;}
+  a{
+    background: #fff;
+    @include transition(transform 1s, background .4s);
+    @include border-radius(100%);
+    &:hover{
+      @include translateY(-10px);
+    }
+  }
+   .twitter{ color:$twt-cl}
+   .facebook{color:$fb-cl}
+   .google-plus{color:$gp-cl;}
+   .linkedin{color:$in-cl}
+   .pinterest{color:$pin-cl}
+}
+
+.model-2{
+  a{
+    overflow: hidden;
+    font-size: 26px;
+    @include border-radius(4px);
+    margin:0 5px;
+    &:hover{
+       background: #fff;
+       @include text-shadow( shadow(darken(#eee, 10%)));
+    }
+  }
+  
+  .twitter{
+    background:$twt-cl;
+    @include text-shadow( shadow(darken($twt-cl, 10%)));
+    &:hover{color:$twt-cl;}
+  }
+  .facebook{
+    background:$fb-cl;
+    @include text-shadow( shadow(darken($fb-cl, 10%)));
+    &:hover{ color:$fb-cl}
+  }
+  .google-plus{
+    background:$gp-cl;
+    @include text-shadow( shadow(darken($gp-cl, 10%)));
+    &:hover{ color:$gp-cl}
+  }
+  .linkedin{
+    background:$in-cl;
+    @include text-shadow( shadow(darken($in-cl, 10%)));
+    &:hover{ color:$in-cl}
+  }
+  .pinterest{
+    background:$pin-cl;
+    @include text-shadow( shadow(darken($pin-cl, 10%)));
+    &:hover{ color:$pin-cl}
+  }
+}
+.model-3{
+  margin-bottom: 50px;
+  a{
+    background: #fff;
+    @include transition(padding .4s);
+    margin: 0 5px;
+    &:after{
+      content: '';
+      position: absolute ;
+      border:24px solid #fff;
+      z-index: -1;
+      border-bottom-color:transparent !important;
+      left: 0;
+      top:60%;
+      @include transition(transform .4s);
+    }
+    &:hover{
+       color: #fff;
+       padding-top: 10px;
+       &:after{
+         @include translateY(10px);
+       }
+    }
+  }
+  
+  .twitter{
+    color:$twt-cl;
+    &:hover{ background:$twt-cl;
+    &:after{border-color: $twt-cl}
+    }
+  }
+  .facebook{
+    color:$fb-cl;
+    &:hover{ background:$fb-cl;
+    &:after{border-color: $fb-cl}
+    }
+  }
+  .google-plus{
+    color:$gp-cl;
+    &:hover{ background:$gp-cl;
+    &:after{border-color: $gp-cl}
+    }
+  }
+  .linkedin{
+    color:$in-cl;
+    &:hover{ background:$in-cl;
+    &:after{border-color: $in-cl}
+    }
+  }
+  .pinterest{
+    color:$pin-cl;
+    &:hover{ background:$pin-cl;
+    &:after{border-color: $pin-cl}
+    }
+  }
+}
+
+.model-4{
+  li{margin:0 2px ;}
+  a{
+    background:none;
+    line-height: 1.5;
+    font-size: 32px;
+    @include text-shadow(0px 0px 1px );
+    &:hover{
+      @include text-shadow(0px 0px 25px );
+    }
+  }
+   .twitter{ color:$twt-cl}
+   .facebook{color:$fb-cl}
+   .google-plus{color:$gp-cl;}
+   .linkedin{color:$in-cl}
+   .pinterest{color:$pin-cl}
+}
+.model-5{
+  li{float: left;}
+  a{background: #222;}
+  .twitter:hover{ color:$twt-cl}
+  .facebook:hover{color:$fb-cl}
+  .google-plus:hover{color:$gp-cl}
+  .linkedin:hover{color:$in-cl}
+  .pinterest:hover{color:$pin-cl}
+}
+
+.model-6{
+  li{float: left;}
+  a{
+    &:hover{background: #fff;}
+  }
+  .twitter{
+    background:$twt-cl;
+    &:hover{ color:$twt-cl}
+  }
+  .facebook{
+    background:$fb-cl;
+    &:hover{ color:$fb-cl}
+  }
+  .google-plus{
+    background:$gp-cl;
+    &:hover{color:$gp-cl}
+  }
+  .linkedin{
+    background:$in-cl;
+    &:hover{ color:$in-cl}
+  }
+  .pinterest{
+    background:$pin-cl;
+    &:hover{ color:$pin-cl}
+  }
+}
+.model-7{
+  li{margin:0 10px ;}
+  a{
+    background: none;
+    @include box-shadow(0 0 4px 3px);
+    @include text-shadow(0 0 1px #333);
+    @include transition(transform .4s, background .4s);
+    @include border-radius(100%);
+    .fa{ @include transition(transform 1s)}
+    &:hover{
+      background: #fff;
+      .fa{ @include transform( rotate(-10deg) scale(3))}
+    }
+  }
+   .twitter{ color:$twt-cl}
+   .facebook{color:$fb-cl}
+   .google-plus{color:$gp-cl;}
+   .linkedin{color:$in-cl}
+   .pinterest{color:$pin-cl}
+}
+
+.model-8{
+  a{
+    background: #FFF;
+    &:hover{
+        @include box-shadow(0 48px  0  inset);
+        &> .fa{color:#fff}
+      }
+  }
+  .twitter{
+    color:$twt-cl;
+    &:hover{ color:$twt-cl}
+  }
+  .facebook{
+    color:$fb-cl;
+    &:hover{color:$fb-cl}
+  }
+  .google-plus{
+    color:$gp-cl;
+    &:hover{ color:$gp-cl}
+  }
+  .linkedin{
+    color:$in-cl;
+    &:hover{ color:$in-cl}
+  }
+  .pinterest{
+    color:$pin-cl;
+    &:hover{color:$pin-cl}
+  }
+}
+.model-9{
+  li{margin:0 10px ;}
+  a{
+    color: #fff;
+    overflow: hidden;
+    @include border-radius(100%);
+    &:hover{
+      background: #fff;
+      .fa{ @include animation(.4s icon-move linear 0s)}
+    }
+  }
+  .twitter{
+    background:$twt-cl;
+    &:hover{ color:$twt-cl}
+  }
+  .facebook{
+    background:$fb-cl;
+    &:hover{ color:$fb-cl}
+  }
+  .google-plus{
+    background:$gp-cl;
+    &:hover{color:$gp-cl}
+  }
+  .linkedin{
+    background:$in-cl;
+    &:hover{ color:$in-cl}
+  }
+  .pinterest{
+    background:$pin-cl;
+    &:hover{ color:$pin-cl}
+  }
+}
+
+.model-3d-0{
+  a {
+    background: #333;
+    float: left;
+    margin:0 10px;
+    @include transform-style(preserve-3d);
+    &:hover { 
+      @include rotateX(-90deg);
+      .fornt{ @include backface-visibility (hidden);}
+      .back{ @include backface-visibility (visible);}
+    }  
+  }
+  .front , .back{
+    width: 48px; 
+    height: 48px;
+    background: #333;
+    position: absolute;
+    top: 0;
+    left: 0;
+    @include translateZ(18px);
+    @include backface-visibility (visible);
+  }
+  .back {
+     font-size: 32px;
+    @include transform(rotateX(90deg) translateZ(18px));
+    @include backface-visibility (hidden);
+  }
+  .twitter .back { background: $twt-cl }
+  .facebook  .back { background: $fb-cl }
+  .google-plus .back { background: $gp-cl}
+  .linkedin .back { background: $in-cl}
+  .pinterest .back { background: $pin-cl}
+}
+
+.model-3d-1{
+  a {
+    background: #fff;
+    color:#666;
+    float: left;
+    margin:0 10px;
+    @include border-radius(100%);
+    &:hover { 
+      color: #fff;
+      @include rotateY(-180deg);
+      .fornt{ @include backface-visibility (hidden);}
+      .back{ @include backface-visibility (visible);}
+    }  
+  }
+  .front , .back{
+    width: 48px; 
+    height: 48px; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    @include border-radius(100%);
+    @include backface-visibility (visible);
+  }
+  .back {
+    @include rotateY(-180deg);
+    @include backface-visibility (hidden);
+  }
+  .twitter .back { background: $twt-cl }
+  .facebook  .back { background: $fb-cl }
+  .google-plus .back { background: $gp-cl}
+  .linkedin .back { background: $in-cl}
+  .pinterest .back { background: $pin-cl}
+}
+*/
+/*====== Model-9 Animation ========
+@include keyframes(icon-move){
+  49%{@include translateX(-40px); opacity:0}
+  50%{@include translateX(40px);opacity:1}
+  80%{@include translateX(0);}
+}
+
+*/
+
